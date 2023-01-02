@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #393E46;
+}
+
+h1{
+    color: #EEEEEE;
+    margin: 30px;
+}
+
+.formular{
+    width: 400px;
+}
+
+a:not(.forgot), #submit{
+    color: #232931;
+    text-decoration: none;
+    background-color: #4ECCA3;
+    padding: 20px 80px;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+a:hover:not(.forgot){
+    color: #EEEEEE;
+    background-color: #393E46;
+    border: 1px solid #4ECCA3;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+#firstname,#lastname{
+    width: 49.5%;
+}
+
+input:not(#firstname,#lastname){
+    width:100%;
+}
+
+#mail, #password{
+    width: max-content;
+}
+
+.forgot{
+    display: block;
+    color: #4ECCA3;
+    text-align: right;
+    margin: 20px;
+}
+
+#submit{
+    margin: auto;
+}
